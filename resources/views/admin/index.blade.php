@@ -1,5 +1,28 @@
 @extends('layouts.app')
 @section('content')
+<style>
+    .btn-primary {
+        color: #fff;
+        background-color: #df6951;
+        border-color: #df6951;
+        
+    }
+    .btn-primary:hover{
+        color: #fff;
+        background-color: #df6951;
+        border-color: #df6951;
+    }
+    .btn-primary:focus{
+        color: #fff;
+        background-color: #df6951;
+        border-color: #df6951;
+    }
+    .fs-9 {
+    font-size: 35px !important;
+    }
+</style>
+
+<h3 class="mb-4 fs-9 fw-bold">Data Login User</h3>
 <div class="mb-5">
     <a href="/admin/cetak-pdf" class="btn btn-sm btn-primary float-left" target="_blank">CETAK PDF</a>
 </div>
